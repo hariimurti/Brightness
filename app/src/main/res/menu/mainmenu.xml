@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_restart_service"
+        android:icon="@drawable/ic_action_restart_service"
+        android:title="@string/menu_restart_service"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/menu_about"/>
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/menu_exit"/>
+
+</menu>
